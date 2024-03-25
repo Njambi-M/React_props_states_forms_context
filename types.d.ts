@@ -1,3 +1,3 @@
-type MaterialProp= {
+export type MaterialProp= {
     material: string;
 };
