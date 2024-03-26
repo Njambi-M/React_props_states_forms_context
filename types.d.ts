@@ -3,5 +3,6 @@ export type MaterialProp= {
 };
 
 export type CartProp= {
-    items: number;
+    item: number;
+    itemName: string;
 };
