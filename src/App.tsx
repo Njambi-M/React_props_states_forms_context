@@ -4,6 +4,8 @@ import Furniture from "./components/Furniture";
 import Cart from "./components/Cart";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
+// import Electronics from "./components/Electronics";
+import DeviceContext from "./context/DeviceContext";
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <Login/>
       <Signup/>
       <Cart/>
+      <DeviceContext/>
       </>
       
     </div>
